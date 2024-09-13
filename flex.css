@@ -1,0 +1,19 @@
+body{
+    box-sizing: border-box;
+}
+.container{
+     display: flex;
+     flex-direction: row;
+     background: white;
+     align-items: center;
+     height: 50vh;
+     justify-content: space-evenly;
+}
+
+.box{
+
+    width: 100px;
+    height: 100px;background-color: blue;
+    margin: 10px;
+    color: white;
+}
